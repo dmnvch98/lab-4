@@ -1,0 +1,56 @@
+body {
+    background-color: #333;
+}
+
+.input-title{
+    font-size: 24px;
+    color: white;
+}
+
+.input{
+    height: 30px;
+}
+
+.source{
+    height: 30px;
+}
+
+.label{
+    font-size: 18px;
+    color: #fff;
+}
+
+.search-form{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btn{
+    text-align: center;
+    background-color: white;
+    height: 28px;
+    border: none;
+}
+.load-more-btn{
+    text-align: center;
+    padding-top: 30px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
+
+img:hover{
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.news-form{
+    text-align: center;
+}
+
