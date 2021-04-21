@@ -14,11 +14,11 @@ module.exports = {
     entry: './js/main.js',
     output: {
         filename: `./js/${filename('js')}`,
-        path: path.resolve(__dirname, 'app')
+        path: path.resolve(__dirname, 'dist')
     },
     devServer: {
         historyApiFallback: true,
-        contentBase: path.resolve(__dirname, 'app'),
+        contentBase: path.resolve(__dirname, 'dist'),
         open: true,
         compress: true,
         hot: true,
